@@ -7,13 +7,14 @@
 @import AVFoundation;
 
 #import <CocoaLumberjack/CocoaLumberjack.h>
+
 #import <XCDYouTubeKit/XCDYouTubeKit.h>
 
 @implementation AppDelegate
 
 - (void) applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	[[NSUserDefaults standardUserDefaults] registerDefaults:@{ @"VideoIdentifier": @"6v2L2UGZJAM" }];
+	[[NSUserDefaults standardUserDefaults] registerDefaults:@{ @"VideoIdentifier": @"sOv5kIJ5sq8" }];
 	
 	[DDLog addLogger:[DDASLLogger sharedInstance]];
 }
